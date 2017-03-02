@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.290992">
+<testcase classname="Magneto site" name="Testcase001" time="19.048383">
+<system-out><![CDATA[Given User is in Home Page..................................................passed
+When Click on MOBILE menu...................................................passed
+And select SORT BY dropdown as name.........................................passed
+Then All products should be sorted by name..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Magneto site" name="Testcase002" time="15.242609">
+<system-out><![CDATA[Given User is in Home Page..................................................passed
+When Click on MOBILE menu...................................................passed
+And In the list of all mobile, read the cost of Sony Xperia mobile. Note this value.passed
+And Click on Sony Xperia mobile.............................................passed
+And Read the cost of Sony Xperia mobile from detail page....................passed
+Then Both Value should be same..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

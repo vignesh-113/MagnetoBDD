@@ -1,0 +1,143 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Vigneshwaran.S"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35135393884,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is in Home Page",
+            "match": {
+              "location": "StartingSteps.user_is_in_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266719781,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on MOBILE menu",
+            "match": {
+              "location": "HomepageSteps.click_on_MOBILE_menu()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3732310700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Testcase002",
+        "description": "",
+        "id": "magneto-site;testcase002",
+        "after": [
+          {
+            "result": {
+              "duration": 1341903690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13678548596,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "In the list of all mobile, read the cost of Sony Xperia mobile. Note this value",
+            "match": {
+              "location": "MobilepageSteps.in_the_list_of_all_mobile_read_the_cost_of_Sony_Xperia_mobile_Note_this_value()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2135630561,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Sony Xperia mobile",
+            "match": {
+              "location": "MobilepageSteps.click_on_Sony_Xperia_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6310642409,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Read the cost of Sony Xperia mobile from detail page.",
+            "match": {
+              "location": "MobilepageSteps.read_the_cost_of_Sony_Xperia_mobile_from_detail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3671625,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Both Value should be same",
+            "match": {
+              "location": "MobilepageSteps.both_Value_should_be_same()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@TestCase-two"
+          }
+        ]
+      }
+    ],
+    "name": "Magneto site",
+    "description": "\t\tTestcases two",
+    "id": "magneto-site",
+    "keyword": "Feature",
+    "uri": "Testscript02.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@TestCase"
+      }
+    ]
+  }
+]
